@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mars explorer</string>
+    <string name="saved">saved</string>
+    <string name="save_to_firestore">the image is stored in the Cloud Firestore</string>
+    <string name="error_save_to_firestore">image saving error</string>
+    <string name="error_load_from_firestore">image loading error</string>
+    <string name="id">identification</string>
+    <string name="filming_date">Filming date</string>
+    <string name="insert_date">Insert date in format yyyy-m-d</string>
+    <string name="camera_label_name">CAMERA:</string>
+    <string name="picture_label_name">ID:</string>
+    <string name="data_label_name">DATE:</string>
+    <string name="hello_activity_text">Mars explorer</string>
+    <string name="light_theme">Light theme</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="list_preference_title">Theme for the app</string>
+    <string name="list_preference_dialogTitle">Select a theme for the app</string>
+    <string name="action_open_settings_title">Settings</string>
+    <string name="action_open_gallery_title">Gallery</string>
+    <string name="error_load_pictures">Error load pictures</string>
+    <string name="not_picture_for_date"> NASA has no images of the Martian surface for the selected date. Please choose another date.</string>
+</resources>

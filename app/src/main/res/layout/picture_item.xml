@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorChartal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/chard_image_view"
+        android:layout_width="@dimen/chard_image_view_width"
+        android:layout_height="@dimen/chard_image_view_height"
+        android:layout_margin="@dimen/margin"
+        app:cardCornerRadius="@dimen/chard_image_view_corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/picture_mars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@tools:sample/avatars" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chard_image_view" />
+
+    <TextView
+        android:id="@+id/camera_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/camera_label_name"
+        app:layout_constraintStart_toEndOf="@+id/chard_image_view"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="CAMERA:" />
+
+    <TextView
+        android:id="@+id/camera_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintStart_toEndOf="@+id/camera_label"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="NAVCAM" />
+
+    <TextView
+        android:id="@+id/picture_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/picture_label_name"
+        app:layout_constraintStart_toEndOf="@+id/chard_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/camera_label"
+        tools:text="ID:" />
+
+    <TextView
+        android:id="@+id/picture_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        app:layout_constraintStart_toEndOf="@+id/picture_label"
+        app:layout_constraintTop_toBottomOf="@+id/camera_name"
+        tools:text="97451" />
+
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:text="@string/data_label_name"
+        app:layout_constraintStart_toEndOf="@+id/chard_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/picture_label"
+        tools:text="DATE:" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        app:layout_constraintStart_toEndOf="@+id/date_label"
+        app:layout_constraintTop_toBottomOf="@+id/picture_name"
+        tools:text="2014-10-02" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

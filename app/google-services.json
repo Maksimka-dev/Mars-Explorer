@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "459358407974",
+    "firebase_url": "https://rs-android-stage2-task7.firebaseio.com",
+    "project_id": "rs-android-stage2-task7",
+    "storage_bucket": "rs-android-stage2-task7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459358407974:android:9267a669c89e8d368785e7",
+        "android_client_info": {
+          "package_name": "com.example.workshopretrofit_16072020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459358407974-7pv9f5decst090ilkk02pduqh30i4ff3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJxtoEwz7yV-ZogpwOYrzMJXOhYI4uL8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459358407974-7pv9f5decst090ilkk02pduqh30i4ff3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
